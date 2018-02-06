@@ -9,7 +9,7 @@ public class BasePage {
     @BeforeClass
     public static void before() {
 
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\Goncalo\\Desktop\\drivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","C:\\Users\\GQ\\Desktop\\Drivers\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
     }
