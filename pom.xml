@@ -56,6 +56,10 @@
                         <include>Exercise7.java</include>
                         <include>Exercise8.java</include>
                         <include>Exercise9.java</include>
+                        <include>Exercise10.java</include>
+                        <include>Exercise11.java</include>
+                        <include>Exercise12.java</include>
+                        <include>Exercise13.java</include>
                     </includes>
                 </configuration>
             </plugin>
