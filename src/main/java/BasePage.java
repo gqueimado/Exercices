@@ -1,6 +1,7 @@
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BasePage {
@@ -9,8 +10,8 @@ public class BasePage {
     @BeforeClass
     public static void before() {
 
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\GQ\\Desktop\\Drivers\\geckodriver.exe");
-        driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\GQ\\Desktop\\Drivers\\chromedriver.exe");
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
